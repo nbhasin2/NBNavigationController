@@ -24,15 +24,16 @@
 		8A37588D1E0B6A210036E11B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37588C1E0B6A210036E11B /* Constants.swift */; };
 		8A3758901E0B78550036E11B /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37588E1E0B78550036E11B /* CustomNavBar.swift */; };
 		8A3758911E0B78550036E11B /* CustomNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A37588F1E0B78550036E11B /* CustomNavBar.xib */; };
-		8A3758B01E0C6BB00036E11B /* FadeInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3758AA1E0C6BB00036E11B /* FadeInTransition.swift */; };
-		8A3758B11E0C6BB00036E11B /* BottomUpTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3758AB1E0C6BB00036E11B /* BottomUpTransition.swift */; };
-		8A3758B21E0C6BB00036E11B /* TopDownTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3758AC1E0C6BB00036E11B /* TopDownTransition.swift */; };
-		8A3758B31E0C6BB00036E11B /* FadeOutTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3758AD1E0C6BB00036E11B /* FadeOutTransition.swift */; };
-		8A3758B41E0C6BB00036E11B /* NBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3758AF1E0C6BB00036E11B /* NBNavigationController.swift */; };
 		8AAFB0141E136A5200989264 /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFB0131E136A5200989264 /* GifViewController.swift */; };
 		8AAFB0161E136A6A00989264 /* GifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFB0151E136A6A00989264 /* GifViewController.xib */; };
 		8AAFB0181E1375CD00989264 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFB0171E1375CD00989264 /* DictionaryExtension.swift */; };
 		8AAFB01A1E1375FB00989264 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFB0191E1375FB00989264 /* StringExtension.swift */; };
+		8AFE38CA1E18C70A00A97EF6 /* BottomUpTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE38C51E18C70A00A97EF6 /* BottomUpTransition.swift */; };
+		8AFE38CB1E18C70A00A97EF6 /* FadeInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE38C61E18C70A00A97EF6 /* FadeInTransition.swift */; };
+		8AFE38CC1E18C70A00A97EF6 /* FadeOutTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE38C71E18C70A00A97EF6 /* FadeOutTransition.swift */; };
+		8AFE38CD1E18C70A00A97EF6 /* NBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE38C81E18C70A00A97EF6 /* NBNavigationController.swift */; };
+		8AFE38CE1E18C70A00A97EF6 /* TopDownTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE38C91E18C70A00A97EF6 /* TopDownTransition.swift */; };
+		8AFE38D01E18CA0A00A97EF6 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE38CF1E18CA0A00A97EF6 /* BaseTransition.swift */; };
 		EE4BF727ADB65A6477C6B5FB /* Pods_GobstonesSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BE64CB65F73567A9B088F3 /* Pods_GobstonesSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,15 +82,16 @@
 		8A37588C1E0B6A210036E11B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8A37588E1E0B78550036E11B /* CustomNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
 		8A37588F1E0B78550036E11B /* CustomNavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavBar.xib; sourceTree = "<group>"; };
-		8A3758AA1E0C6BB00036E11B /* FadeInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInTransition.swift; sourceTree = "<group>"; };
-		8A3758AB1E0C6BB00036E11B /* BottomUpTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomUpTransition.swift; sourceTree = "<group>"; };
-		8A3758AC1E0C6BB00036E11B /* TopDownTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopDownTransition.swift; sourceTree = "<group>"; };
-		8A3758AD1E0C6BB00036E11B /* FadeOutTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeOutTransition.swift; sourceTree = "<group>"; };
-		8A3758AF1E0C6BB00036E11B /* NBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBNavigationController.swift; sourceTree = "<group>"; };
 		8AAFB0131E136A5200989264 /* GifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
 		8AAFB0151E136A6A00989264 /* GifViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GifViewController.xib; sourceTree = "<group>"; };
 		8AAFB0171E1375CD00989264 /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		8AAFB0191E1375FB00989264 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		8AFE38C51E18C70A00A97EF6 /* BottomUpTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomUpTransition.swift; sourceTree = "<group>"; };
+		8AFE38C61E18C70A00A97EF6 /* FadeInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInTransition.swift; sourceTree = "<group>"; };
+		8AFE38C71E18C70A00A97EF6 /* FadeOutTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeOutTransition.swift; sourceTree = "<group>"; };
+		8AFE38C81E18C70A00A97EF6 /* NBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBNavigationController.swift; sourceTree = "<group>"; };
+		8AFE38C91E18C70A00A97EF6 /* TopDownTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopDownTransition.swift; sourceTree = "<group>"; };
+		8AFE38CF1E18CA0A00A97EF6 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
 		91945A0DD72A4D88866A8AE0 /* Pods-GobstonesSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GobstonesSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GobstonesSwiftUITests/Pods-GobstonesSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F9F9CC34511CA758AA52DE0 /* Pods_GobstonesSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GobstonesSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF88569918A7E1434E70C9E8 /* Pods-GobstonesSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GobstonesSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-GobstonesSwift/Pods-GobstonesSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,8 +177,7 @@
 				8A3758411E0B31350036E11B /* Assets.xcassets */,
 				8A3758431E0B31350036E11B /* LaunchScreen.storyboard */,
 				8A3758461E0B31350036E11B /* Info.plist */,
-				8A3758A81E0C6BB00036E11B /* Animation */,
-				8A3758681E0B32CF0036E11B /* 3rdParty */,
+				8AFE38C41E18C70A00A97EF6 /* NBNavigationController */,
 				8A37586A1E0B32CF0036E11B /* Extensions */,
 				8A37586B1E0B32CF0036E11B /* General */,
 				8A37586C1E0B32CF0036E11B /* Models */,
@@ -204,13 +205,6 @@
 				8A37585C1E0B31360036E11B /* Info.plist */,
 			);
 			path = GobstonesSwiftUITests;
-			sourceTree = "<group>";
-		};
-		8A3758681E0B32CF0036E11B /* 3rdParty */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = 3rdParty;
 			sourceTree = "<group>";
 		};
 		8A3758691E0B32CF0036E11B /* Cell */ = {
@@ -283,34 +277,6 @@
 			path = BaseViewController;
 			sourceTree = "<group>";
 		};
-		8A3758A81E0C6BB00036E11B /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				8A3758A91E0C6BB00036E11B /* Transition */,
-				8A3758AE1E0C6BB00036E11B /* TrasitionController */,
-			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
-		8A3758A91E0C6BB00036E11B /* Transition */ = {
-			isa = PBXGroup;
-			children = (
-				8A3758AA1E0C6BB00036E11B /* FadeInTransition.swift */,
-				8A3758AD1E0C6BB00036E11B /* FadeOutTransition.swift */,
-				8A3758AB1E0C6BB00036E11B /* BottomUpTransition.swift */,
-				8A3758AC1E0C6BB00036E11B /* TopDownTransition.swift */,
-			);
-			path = Transition;
-			sourceTree = "<group>";
-		};
-		8A3758AE1E0C6BB00036E11B /* TrasitionController */ = {
-			isa = PBXGroup;
-			children = (
-				8A3758AF1E0C6BB00036E11B /* NBNavigationController.swift */,
-			);
-			path = TrasitionController;
-			sourceTree = "<group>";
-		};
 		8AAFB0121E13685600989264 /* GifViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +284,19 @@
 				8AAFB0151E136A6A00989264 /* GifViewController.xib */,
 			);
 			path = GifViewController;
+			sourceTree = "<group>";
+		};
+		8AFE38C41E18C70A00A97EF6 /* NBNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE38C51E18C70A00A97EF6 /* BottomUpTransition.swift */,
+				8AFE38C61E18C70A00A97EF6 /* FadeInTransition.swift */,
+				8AFE38C71E18C70A00A97EF6 /* FadeOutTransition.swift */,
+				8AFE38C81E18C70A00A97EF6 /* NBNavigationController.swift */,
+				8AFE38C91E18C70A00A97EF6 /* TopDownTransition.swift */,
+				8AFE38CF1E18CA0A00A97EF6 /* BaseTransition.swift */,
+			);
+			path = NBNavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -604,21 +583,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3758B31E0C6BB00036E11B /* FadeOutTransition.swift in Sources */,
+				8AFE38CA1E18C70A00A97EF6 /* BottomUpTransition.swift in Sources */,
 				8A3758871E0B5F670036E11B /* UIColourExtension.swift in Sources */,
 				8A3758901E0B78550036E11B /* CustomNavBar.swift in Sources */,
 				8A37583B1E0B31350036E11B /* AppDelegate.swift in Sources */,
 				8AAFB01A1E1375FB00989264 /* StringExtension.swift in Sources */,
-				8A3758B01E0C6BB00036E11B /* FadeInTransition.swift in Sources */,
+				8AFE38CC1E18C70A00A97EF6 /* FadeOutTransition.swift in Sources */,
 				8A3758781E0B38460036E11B /* InitialViewController.swift in Sources */,
 				8A3758831E0B5DDC0036E11B /* NetworkUtils.swift in Sources */,
-				8A3758B11E0C6BB00036E11B /* BottomUpTransition.swift in Sources */,
+				8AFE38CE1E18C70A00A97EF6 /* TopDownTransition.swift in Sources */,
 				8A37587A1E0B3AEC0036E11B /* InitialViewCell.swift in Sources */,
-				8A3758B41E0C6BB00036E11B /* NBNavigationController.swift in Sources */,
-				8A3758B21E0C6BB00036E11B /* TopDownTransition.swift in Sources */,
+				8AFE38CD1E18C70A00A97EF6 /* NBNavigationController.swift in Sources */,
 				8A3758851E0B5DF00036E11B /* BaseViewController.swift in Sources */,
 				8AAFB0181E1375CD00989264 /* DictionaryExtension.swift in Sources */,
 				8A37588D1E0B6A210036E11B /* Constants.swift in Sources */,
+				8AFE38D01E18CA0A00A97EF6 /* BaseTransition.swift in Sources */,
+				8AFE38CB1E18C70A00A97EF6 /* FadeInTransition.swift in Sources */,
 				8AAFB0141E136A5200989264 /* GifViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

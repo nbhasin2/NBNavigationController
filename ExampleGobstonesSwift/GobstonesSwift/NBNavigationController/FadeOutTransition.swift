@@ -1,9 +1,9 @@
 //
-// BottomUpTransition.swift
+// FadeOutTransition.swift
 //
 // The MIT License (MIT)
 //
-// Copyright (c) 2016 Nishant Bhasin. <nikieme3@gmail.com>
+// Copyright (c) 2017 Nishant Bhasin. <nikieme3@gmail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -26,9 +26,7 @@
 import Foundation
 import UIKit
 
-class BottomUpTransition: NSObject, UIViewControllerAnimatedTransitioning {
-
-    let transitionDuration: TimeInterval = 0.6
+class FadeOutTransition: BaseTransition, UIViewControllerAnimatedTransitioning {
 
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return transitionDuration
@@ -37,7 +35,6 @@ class BottomUpTransition: NSObject, UIViewControllerAnimatedTransitioning {
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         let container = transitionContext.containerView
         guard
-
             let toView = transitionContext.view(forKey: UITransitionContextViewKey.to),
             let fromViewController = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from)
             else {
@@ -46,14 +43,13 @@ class BottomUpTransition: NSObject, UIViewControllerAnimatedTransitioning {
         }
 
         toView.frame = container.frame
-        toView.frame.origin.y = container.frame.maxY
+        toView.alpha = 1.0
         container.addSubview(toView)
 
         UIView.animate(
             withDuration: transitionDuration,
             animations: {
-                fromViewController.view.frame.origin.y = -container.frame.maxY
-                toView.frame = container.frame
+                toView.alpha = 0.0
             },
             completion: { _ in
                 transitionContext.completeTransition(true)

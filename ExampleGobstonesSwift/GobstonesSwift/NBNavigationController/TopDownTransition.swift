@@ -1,9 +1,9 @@
 //
-// FadeOutTransition.swift
+// TopDownTransition.swift
 //
 // The MIT License (MIT)
 //
-// Copyright (c) 2016 Nishant Bhasin. <nikieme3@gmail.com>
+// Copyright (c) 2017 Nishant Bhasin. <nikieme3@gmail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -26,14 +26,12 @@
 import Foundation
 import UIKit
 
-class SlideOutTransition: NSObject, UIViewControllerAnimatedTransitioning {
-
-    let transitionDuration: TimeInterval = 1.0
-
+class TopDownTransition: BaseTransition, UIViewControllerAnimatedTransitioning {
+    
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return transitionDuration
     }
-
+    
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         let container = transitionContext.containerView
         guard
@@ -43,20 +41,21 @@ class SlideOutTransition: NSObject, UIViewControllerAnimatedTransitioning {
                 transitionContext.completeTransition(true)
                 return
         }
-
+        
         toView.frame = container.frame
-        toView.alpha = 1.0
+        toView.frame.origin.y = -toView.frame.maxY
         container.addSubview(toView)
-
+        
         UIView.animate(
             withDuration: transitionDuration,
             animations: {
-                toView.alpha = 0.0
+                fromViewController.view.frame.origin.y = container.frame.maxY
+                toView.frame = container.frame
             },
             completion: { _ in
                 transitionContext.completeTransition(true)
             }
         )
     }
-
+    
 }

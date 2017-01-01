@@ -69,7 +69,7 @@ extension InitialViewController: UITableViewDelegate, UITableViewDataSource {
         let customTransition:UIViewControllerAnimatedTransitioning!
         switch indexPath.item {
         case 0:
-            customTransition = FadeInTransition()
+            customTransition = FadeInTransition(transitionDuration: 10.0)
         case 1:
             customTransition = BottomUpTransition()
         case 2:

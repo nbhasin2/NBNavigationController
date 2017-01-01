@@ -1,9 +1,9 @@
 //
-// TopDownTransition.swift
+// FadeInTransition.swift
 //
 // The MIT License (MIT)
 //
-// Copyright (c) 2016 Nishant Bhasin. <nikieme3@gmail.com>
+// Copyright (c) 2017 Nishant Bhasin. <nikieme3@gmail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -23,12 +23,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+
 import Foundation
 import UIKit
 
-class TopDownTransition: NSObject, UIViewControllerAnimatedTransitioning {
-    
-    let transitionDuration: TimeInterval = 0.5
+
+class FadeInTransition: BaseTransition, UIViewControllerAnimatedTransitioning {
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return transitionDuration
@@ -45,14 +45,13 @@ class TopDownTransition: NSObject, UIViewControllerAnimatedTransitioning {
         }
         
         toView.frame = container.frame
-        toView.frame.origin.y = -toView.frame.maxY
+        toView.alpha = 0.0
         container.addSubview(toView)
         
         UIView.animate(
             withDuration: transitionDuration,
             animations: {
-                fromViewController.view.frame.origin.y = container.frame.maxY
-                toView.frame = container.frame
+                toView.alpha = 1.0
             },
             completion: { _ in
                 transitionContext.completeTransition(true)
