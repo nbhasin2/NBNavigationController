@@ -8,8 +8,9 @@ iOS 8+ and Xcode 8 (for Swift 3.0).
 ## Installation
 
 ### CocoaPods
-
-Coming soon 
+```
+pod 'NBNavigationController'
+```
 
 ### Manual
 
