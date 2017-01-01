@@ -3,7 +3,7 @@
 //
 // The MIT License (MIT)
 //
-// Copyright (c) 2016 Nishant Bhasin. <nikieme3@gmail.com>
+// Copyright (c) 2017 Nishant Bhasin. <nikieme3@gmail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -26,9 +26,7 @@
 import Foundation
 import UIKit
 
-class SlideOutTransition: NSObject, UIViewControllerAnimatedTransitioning {
-
-    let transitionDuration: TimeInterval = 1.0
+class FadeOutTransition: BaseTransition, UIViewControllerAnimatedTransitioning {
 
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return transitionDuration
@@ -38,7 +36,7 @@ class SlideOutTransition: NSObject, UIViewControllerAnimatedTransitioning {
         let container = transitionContext.containerView
         guard
             let toView = transitionContext.view(forKey: UITransitionContextViewKey.to),
-            let fromViewController = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from)
+            let _ = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from)
             else {
                 transitionContext.completeTransition(true)
                 return

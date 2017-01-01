@@ -3,7 +3,7 @@
 //
 // The MIT License (MIT)
 //
-// Copyright (c) 2016 Nishant Bhasin. <nikieme3@gmail.com>
+// Copyright (c) 2017 Nishant Bhasin. <nikieme3@gmail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -26,9 +26,7 @@
 import Foundation
 import UIKit
 
-class BottomUpTransition: NSObject, UIViewControllerAnimatedTransitioning {
-
-    let transitionDuration: TimeInterval = 0.6
+class BottomUpTransition: BaseTransition, UIViewControllerAnimatedTransitioning {
 
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return transitionDuration
