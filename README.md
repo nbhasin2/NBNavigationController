@@ -18,7 +18,7 @@ Download and copy the folder NBNavigationController add it to your project in Xc
 
 ## Usage
 
-Declare a global NBNavigationController in your class that has access to navigationController
+Declare NBNavigationController in your class that has access to navigationController
 
 ```
 let transitionController = NBNavigationController()
