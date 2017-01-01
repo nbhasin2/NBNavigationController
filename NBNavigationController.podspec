@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NBNavigationController'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Navigation controller with custom transition'
 
   s.description      = <<-DESC
@@ -13,6 +13,6 @@ This NBNavigationController supports custom transition.
   s.source           = { :git => 'https://github.com/nbhasin2/NBNavigationController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-  s.source_files = 'NBNavigationController/*.swift'
+  s.source_files = 'NBNavigationController/NBNavigationController/Transitions/*.swift'
 
 end
