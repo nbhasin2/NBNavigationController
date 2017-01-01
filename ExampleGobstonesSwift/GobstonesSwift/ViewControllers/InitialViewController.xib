@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InitialViewController" customModule="GobstonesSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="addItemButton" destination="4Yk-gM-Kf3" id="jnE-7K-yTY"/>
+                <outlet property="tableView" destination="cAv-K0-LaW" id="qVd-c3-Idv"/>
+                <outlet property="view" destination="iN0-l3-epB" id="8i6-j5-TKR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Yk-gM-Kf3">
+                    <rect key="frame" x="10" y="617" width="355" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="RFB-X4-hR3"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="0.94354385137557983" green="0.93631947040557861" blue="0.96298855543136597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addItemAction:" destination="-1" eventType="touchUpInside" id="bae-GP-1zo"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cAv-K0-LaW">
+                    <rect key="frame" x="0.0" y="64" width="375" height="553"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.4883008599281311" green="0.39122217893600464" blue="0.99509114027023315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cAv-K0-LaW" secondAttribute="trailing" id="0qg-S9-4K9"/>
+                <constraint firstAttribute="bottom" secondItem="4Yk-gM-Kf3" secondAttribute="bottom" constant="10" id="8OI-uD-IjQ"/>
+                <constraint firstAttribute="trailing" secondItem="4Yk-gM-Kf3" secondAttribute="trailing" constant="10" id="RdI-fj-uNI"/>
+                <constraint firstItem="cAv-K0-LaW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="da3-Fk-7E9"/>
+                <constraint firstItem="4Yk-gM-Kf3" firstAttribute="top" secondItem="cAv-K0-LaW" secondAttribute="bottom" id="gzG-18-ZIL"/>
+                <constraint firstItem="cAv-K0-LaW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="n4T-mt-ruc"/>
+                <constraint firstItem="4Yk-gM-Kf3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="wWQ-8x-ubN"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

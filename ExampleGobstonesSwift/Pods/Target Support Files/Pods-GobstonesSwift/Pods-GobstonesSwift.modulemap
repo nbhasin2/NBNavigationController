@@ -1,0 +1,6 @@
+framework module Pods_GobstonesSwift {
+  umbrella header "Pods-GobstonesSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
