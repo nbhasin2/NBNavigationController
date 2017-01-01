@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		1FBB4FF6824F392457A208E7 /* Pods_GobstonesSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F28B0CE3487E1249E49C1F5 /* Pods_GobstonesSwift.framework */; };
 		36DF58F8D984CA8291203E52 /* Pods_GobstonesSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9F9CC34511CA758AA52DE0 /* Pods_GobstonesSwiftUITests.framework */; };
-		8A2D93141E197293006F9EE1 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D930E1E197293006F9EE1 /* BaseTransition.swift */; };
-		8A2D93151E197293006F9EE1 /* BottomUpTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D930F1E197293006F9EE1 /* BottomUpTransition.swift */; };
-		8A2D93161E197293006F9EE1 /* FadeInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D93101E197293006F9EE1 /* FadeInTransition.swift */; };
-		8A2D93171E197293006F9EE1 /* FadeOutTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D93111E197293006F9EE1 /* FadeOutTransition.swift */; };
-		8A2D93181E197293006F9EE1 /* NBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D93121E197293006F9EE1 /* NBNavigationController.swift */; };
-		8A2D93191E197293006F9EE1 /* TopDownTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D93131E197293006F9EE1 /* TopDownTransition.swift */; };
 		8A37583B1E0B31350036E11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A37583A1E0B31350036E11B /* AppDelegate.swift */; };
 		8A3758421E0B31350036E11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3758411E0B31350036E11B /* Assets.xcassets */; };
 		8A3758451E0B31350036E11B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3758431E0B31350036E11B /* LaunchScreen.storyboard */; };
@@ -61,12 +55,6 @@
 		317D3D445CAA94A782DA3919 /* Pods-GobstonesSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GobstonesSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GobstonesSwiftTests/Pods-GobstonesSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		3F28B0CE3487E1249E49C1F5 /* Pods_GobstonesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GobstonesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B81F38C5DE0E866F81BDBD /* Pods-GobstonesSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GobstonesSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GobstonesSwiftUITests/Pods-GobstonesSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A2D930E1E197293006F9EE1 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
-		8A2D930F1E197293006F9EE1 /* BottomUpTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomUpTransition.swift; sourceTree = "<group>"; };
-		8A2D93101E197293006F9EE1 /* FadeInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInTransition.swift; sourceTree = "<group>"; };
-		8A2D93111E197293006F9EE1 /* FadeOutTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeOutTransition.swift; sourceTree = "<group>"; };
-		8A2D93121E197293006F9EE1 /* NBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBNavigationController.swift; sourceTree = "<group>"; };
-		8A2D93131E197293006F9EE1 /* TopDownTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopDownTransition.swift; sourceTree = "<group>"; };
 		8A3758371E0B31350036E11B /* GobstonesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GobstonesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A37583A1E0B31350036E11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A3758411E0B31350036E11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +67,7 @@
 		8A37585A1E0B31360036E11B /* GobstonesSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GobstonesSwiftUITests.swift; sourceTree = "<group>"; };
 		8A37585C1E0B31360036E11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3758751E0B383A0036E11B /* InitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
-		8A3758771E0B38460036E11B /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitialViewController.swift; path = ../ViewControllers/InitialViewController.swift; sourceTree = "<group>"; };
+		8A3758771E0B38460036E11B /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		8A3758791E0B3AEC0036E11B /* InitialViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewCell.swift; sourceTree = "<group>"; };
 		8A37587B1E0B3AF80036E11B /* InitialViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialViewCell.xib; sourceTree = "<group>"; };
 		8A3758821E0B5DDC0036E11B /* NetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
@@ -148,20 +136,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8A2D930D1E197293006F9EE1 /* NBNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				8A2D930E1E197293006F9EE1 /* BaseTransition.swift */,
-				8A2D930F1E197293006F9EE1 /* BottomUpTransition.swift */,
-				8A2D93101E197293006F9EE1 /* FadeInTransition.swift */,
-				8A2D93111E197293006F9EE1 /* FadeOutTransition.swift */,
-				8A2D93121E197293006F9EE1 /* NBNavigationController.swift */,
-				8A2D93131E197293006F9EE1 /* TopDownTransition.swift */,
-			);
-			name = NBNavigationController;
-			path = ../../NBNavigationController;
-			sourceTree = "<group>";
-		};
 		8A37582E1E0B31350036E11B = {
 			isa = PBXGroup;
 			children = (
@@ -191,7 +165,6 @@
 				8A3758411E0B31350036E11B /* Assets.xcassets */,
 				8A3758431E0B31350036E11B /* LaunchScreen.storyboard */,
 				8A3758461E0B31350036E11B /* Info.plist */,
-				8A2D930D1E197293006F9EE1 /* NBNavigationController */,
 				8A37586A1E0B32CF0036E11B /* Extensions */,
 				8A37586B1E0B32CF0036E11B /* General */,
 				8A37586C1E0B32CF0036E11B /* Models */,
@@ -266,8 +239,9 @@
 		8A37586E1E0B32CF0036E11B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8A3758811E0B5DCD0036E11B /* BaseViewController */,
+				8A3758771E0B38460036E11B /* InitialViewController.swift */,
 				8A3758751E0B383A0036E11B /* InitialViewController.xib */,
+				8A3758811E0B5DCD0036E11B /* BaseViewController */,
 				8AAFB0121E13685600989264 /* GifViewController */,
 			);
 			path = ViewControllers;
@@ -276,7 +250,6 @@
 		8A3758721E0B32CF0036E11B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8A3758771E0B38460036E11B /* InitialViewController.swift */,
 				8A37588E1E0B78550036E11B /* CustomNavBar.swift */,
 				8A37588F1E0B78550036E11B /* CustomNavBar.xib */,
 			);
@@ -585,20 +558,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A3758871E0B5F670036E11B /* UIColourExtension.swift in Sources */,
-				8A2D93141E197293006F9EE1 /* BaseTransition.swift in Sources */,
 				8A3758901E0B78550036E11B /* CustomNavBar.swift in Sources */,
 				8A37583B1E0B31350036E11B /* AppDelegate.swift in Sources */,
-				8A2D93191E197293006F9EE1 /* TopDownTransition.swift in Sources */,
-				8A2D93151E197293006F9EE1 /* BottomUpTransition.swift in Sources */,
-				8A2D93161E197293006F9EE1 /* FadeInTransition.swift in Sources */,
 				8AAFB01A1E1375FB00989264 /* StringExtension.swift in Sources */,
 				8A3758781E0B38460036E11B /* InitialViewController.swift in Sources */,
 				8A3758831E0B5DDC0036E11B /* NetworkUtils.swift in Sources */,
 				8A37587A1E0B3AEC0036E11B /* InitialViewCell.swift in Sources */,
 				8A3758851E0B5DF00036E11B /* BaseViewController.swift in Sources */,
-				8A2D93181E197293006F9EE1 /* NBNavigationController.swift in Sources */,
 				8AAFB0181E1375CD00989264 /* DictionaryExtension.swift in Sources */,
-				8A2D93171E197293006F9EE1 /* FadeOutTransition.swift in Sources */,
 				8A37588D1E0B6A210036E11B /* Constants.swift in Sources */,
 				8AAFB0141E136A5200989264 /* GifViewController.swift in Sources */,
 			);

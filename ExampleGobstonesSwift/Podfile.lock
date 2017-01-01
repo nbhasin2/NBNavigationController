@@ -1,14 +1,17 @@
 PODS:
+  - NBNavigationController (0.1.5)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
+  - NBNavigationController
   - SDWebImage (~> 3.8)
 
 SPEC CHECKSUMS:
+  NBNavigationController: 297339bd6d36cddf40704c297c3bad0e70093195
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 6fca3065da138a153d691fa8f021c85b3a7f74a5
+PODFILE CHECKSUM: 7b61c319f03ba36a34e794a4732ad0733afd2342
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.0.beta.3
