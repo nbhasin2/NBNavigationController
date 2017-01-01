@@ -72,7 +72,7 @@
 		8A37585A1E0B31360036E11B /* GobstonesSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GobstonesSwiftUITests.swift; sourceTree = "<group>"; };
 		8A37585C1E0B31360036E11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3758751E0B383A0036E11B /* InitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
-		8A3758771E0B38460036E11B /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		8A3758771E0B38460036E11B /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitialViewController.swift; path = ../ViewControllers/InitialViewController.swift; sourceTree = "<group>"; };
 		8A3758791E0B3AEC0036E11B /* InitialViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewCell.swift; sourceTree = "<group>"; };
 		8A37587B1E0B3AF80036E11B /* InitialViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialViewCell.xib; sourceTree = "<group>"; };
 		8A3758821E0B5DDC0036E11B /* NetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
@@ -259,7 +259,6 @@
 			isa = PBXGroup;
 			children = (
 				8A3758811E0B5DCD0036E11B /* BaseViewController */,
-				8A3758771E0B38460036E11B /* InitialViewController.swift */,
 				8A3758751E0B383A0036E11B /* InitialViewController.xib */,
 				8AAFB0121E13685600989264 /* GifViewController */,
 			);
@@ -269,6 +268,7 @@
 		8A3758721E0B32CF0036E11B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8A3758771E0B38460036E11B /* InitialViewController.swift */,
 				8A37588E1E0B78550036E11B /* CustomNavBar.swift */,
 				8A37588F1E0B78550036E11B /* CustomNavBar.xib */,
 			);
