@@ -12,7 +12,7 @@ import UIKit
 public class BaseTransition: NSObject {
     public var transitionDuration: TimeInterval = 1.0
     
-    convenience init(transitionDuration:TimeInterval) {
+    public convenience init(transitionDuration:TimeInterval) {
         self.init()
         self.transitionDuration = transitionDuration
     }
