@@ -26,13 +26,13 @@
 import Foundation
 import UIKit
 
-class TopDownTransition: BaseTransition, UIViewControllerAnimatedTransitioning {
+public class TopDownTransition: BaseTransition, UIViewControllerAnimatedTransitioning {
     
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return transitionDuration
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         let container = transitionContext.containerView
         guard
             let toView = transitionContext.view(forKey: UITransitionContextViewKey.to),

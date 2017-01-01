@@ -25,20 +25,20 @@
 
 import UIKit
 
-class NBNavigationController: NSObject {
+public class NBNavigationController: NSObject {
 
-    var customTransition: UIViewControllerAnimatedTransitioning?
-    fileprivate weak var previousDelegate: UINavigationControllerDelegate?
+    public var customTransition: UIViewControllerAnimatedTransitioning?
+    public weak var delegate: UINavigationControllerDelegate?
 
-    func pushViewController(_ controller: UIViewController, ontoNavigationController navigationController: UINavigationController, animatedTransition: UIViewControllerAnimatedTransitioning) {
-        self.previousDelegate = navigationController.delegate
+    public func pushViewController(_ controller: UIViewController, ontoNavigationController navigationController: UINavigationController, animatedTransition: UIViewControllerAnimatedTransitioning) {
+        self.delegate = navigationController.delegate
         self.customTransition = animatedTransition
         navigationController.delegate = self
         navigationController.pushViewController(controller, animated: true)
     }
 
-    func popNavigationController(_ navigationController: UINavigationController, animatedTransition: UIViewControllerAnimatedTransitioning) {
-        self.previousDelegate = navigationController.delegate
+    public func popNavigationController(_ navigationController: UINavigationController, animatedTransition: UIViewControllerAnimatedTransitioning) {
+        self.delegate = navigationController.delegate
         self.customTransition = animatedTransition
         navigationController.delegate = self
         navigationController.popViewController(animated: true)
@@ -49,13 +49,13 @@ class NBNavigationController: NSObject {
 
 extension NBNavigationController: UINavigationControllerDelegate{
     
-    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return self.customTransition
     }
     
-    func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
-        navigationController.delegate = previousDelegate
-        previousDelegate = nil
+    public func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
+        navigationController.delegate = self.delegate
+        self.delegate = nil
     }
 }
 

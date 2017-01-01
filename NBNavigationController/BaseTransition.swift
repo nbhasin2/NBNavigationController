@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-class BaseTransition: NSObject {
-    var transitionDuration: TimeInterval = 1.0
+public class BaseTransition: NSObject {
+    public var transitionDuration: TimeInterval = 1.0
     
     convenience init(transitionDuration:TimeInterval) {
         self.init()
