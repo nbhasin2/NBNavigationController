@@ -8,8 +8,9 @@ iOS 8+ and Xcode 8 (for Swift 3.0).
 ## Installation
 
 ### CocoaPods
-
-Coming soon 
+```
+pod 'NBNavigationController'
+```
 
 ### Manual
 
@@ -17,7 +18,7 @@ Download and copy the folder NBNavigationController add it to your project in Xc
 
 ## Usage
 
-Declare a global NBNavigationController in your class that has access to navigationController
+Declare NBNavigationController in your class that has access to navigationController
 
 ```
 let transitionController = NBNavigationController()
@@ -36,15 +37,17 @@ transitionController.pushViewController(yourViewController, ontoNavigationContro
 You may give it a duration or let it default to 1.0 seconds of timeInterval
 
 #### Customization 
-
+```
 FadeInTransition(transitionDuration: 10.0)
+```
 
 or
-
+```
 FadeInTransition()
 FadeOutTransition()
 BottomUpTransition()
 TopDownTransition()
+```
 
 ## Example
 
