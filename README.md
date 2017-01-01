@@ -37,15 +37,17 @@ transitionController.pushViewController(yourViewController, ontoNavigationContro
 You may give it a duration or let it default to 1.0 seconds of timeInterval
 
 #### Customization 
-
+```
 FadeInTransition(transitionDuration: 10.0)
+```
 
 or
-
+```
 FadeInTransition()
 FadeOutTransition()
 BottomUpTransition()
 TopDownTransition()
+```
 
 ## Example
 
