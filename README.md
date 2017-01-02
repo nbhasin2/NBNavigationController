@@ -1,7 +1,7 @@
 # NBNavigationController
 Custom navigation controller to allow more transition instead of just push and pop.
 
-# Demo
+## Demo
 ![Loader](https://github.com/nbhasin2/NBNavigationController/blob/master/Example/ExampleVideo3fast.gif)
 
 ## Requirements
