@@ -17,7 +17,7 @@ pod 'NBNavigationController'
 
 ### Manual
 
-Download and copy the folder NBNavigationController add it to your project in Xcode.
+Download and copy the NBNavigationController folder over to your project in Xcode.
 
 ## Usage
 
