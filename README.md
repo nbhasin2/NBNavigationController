@@ -1,6 +1,9 @@
 # NBNavigationController
 Custom navigation controller to allow more transition instead of just push and pop.
 
+# Demo
+![Loader](https://github.com/nbhasin2/NBNavigationController/blob/master/Example/ExampleVideo3fast.gif)
+
 ## Requirements
 
 iOS 8+ and Xcode 8 (for Swift 3.0).
