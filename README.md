@@ -51,7 +51,7 @@ TopDownTransition()
 
 ## Example
 
-Look at ExampleGobstonesSwift project. Inside the project look for InitialViewController.swift under ViewControllers. It shows how to implement the custom trasition in your project. 
+Look at Example GobstonesSwift project. Inside the project look for InitialViewController.swift under ViewControllers. It shows how to implement the custom trasition in your project. 
 
 ```
 func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
